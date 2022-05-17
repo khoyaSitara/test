@@ -79,7 +79,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
             return
         else:
             message = sendMarkup(
-                f'Dear {uname},\n\nIf You Want To Use Me, You Have To Join Below Leech/Mirror Group..\n\n',
+                f'Dear {uname},\n\nIf You Want To Use Me, You Have To Join Below Leech/Mirror Group.. @ashish_leech_group \n\n',
                 context.bot, update, reply_markup)
             Thread(target=auto_delete_message, args=(context.bot, update.message, message)).start()
             return
