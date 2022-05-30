@@ -220,7 +220,7 @@ else:
     )["path"]
 
 '''
-if user_id == OWNER_ID: 1571060413
+if user_id == OWNER_ID:
     try:
         help = telegraph.create_page(
         title='Eliteflix ❤ Help',
