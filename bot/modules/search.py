@@ -218,7 +218,7 @@ def _edit_telegraph(path, telegraph_content):
                 nxt_page += 1
         telegraph.edit_page(
             path = path[prev_page],
-            title = 'Helios-Mirror Torrent Search',
+            title = 'Eliteflix ❤ bot Search',
             content=content
         )
     return
